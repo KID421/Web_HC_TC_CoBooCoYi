@@ -219,6 +219,10 @@ nav {
             font-weight: 300;
             letter-spacing: 3.6px;
 
+            // 子元素並指定類型
+            // footer 內有三個子元素，分別為：img，p1，p2
+            // p:nth-child(1) 會得到第一個子元素 img
+            // p:nth-of-type(1) 會得到第一個類型為 p 的子元素就是 p1
             &:nth-of-type(1) {
                 margin-bottom: 17px;
             }
