@@ -134,11 +134,12 @@ nav {
                 transition: 0.5s;
             }
 
+            // 包覆住圖片的 div 並用來製作半透明黑色區塊 - 相對定位
             div {
                 position: relative;
                 font-size: 0;
             }
-
+            // 偽元素：填滿圖片半透明黑色區塊 - 絕對定位
             div::before {
                 content: "";
                 position: absolute;
@@ -149,7 +150,7 @@ nav {
                 opacity: 0;
                 transition: 0.5s;
             }
-
+            // 圖片填滿 div 避免間隙
             img {
                 width: 100%;
             }
