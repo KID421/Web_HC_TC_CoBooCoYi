@@ -35,6 +35,11 @@ nav {
     a {
         text-decoration: none;
         color: white;
+        transition: 0.5s;
+
+        &:hover {
+            color: $gold;
+        }
     }
 
     // 導覽列內的盒子
@@ -240,6 +245,12 @@ nav {
             padding: 17px 67px;
             border: 2px solid $black25;
             color: $black25;
+            transition: 0.5s;
+
+            &:hover {
+                background: $black25;
+                color: white;
+            }
         }
     }
 

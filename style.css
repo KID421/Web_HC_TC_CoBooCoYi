@@ -30,6 +30,12 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  color: #f5bb28;
 }
 
 nav #box {
@@ -243,6 +249,13 @@ nav #box #social a:nth-child(2) {
   padding: 17px 67px;
   border: 2px solid #252525;
   color: #252525;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contant #idea a:hover {
+  background: #252525;
+  color: white;
 }
 
 #contant footer {
