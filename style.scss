@@ -10,3 +10,17 @@
     width: 1920px;
     height: 1280px;
 }
+
+// 導覽列
+nav {
+    // 固定
+    position: fixed;
+
+    // 導覽列內的盒子
+    #box {
+        margin: 59px auto 0;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 204px 351px 398px 120px 110px;
+    }
+}
