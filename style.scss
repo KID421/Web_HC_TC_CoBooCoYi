@@ -88,6 +88,7 @@ nav {
         font-size: 32px;
     }
 
+    // 最新消息
     #news {
         width: 1200px;
         margin: 0 auto;
@@ -125,4 +126,22 @@ nav {
             }
         }
     }
+
+    // 推薦飲品
+    #product {
+        text-align: center;
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+
+        div {
+            width: 100px;
+            height: 200px;
+            background: white;
+            position: absolute;
+            top: 73px;
+            right: 161px;
+        }
+    }
 }
+

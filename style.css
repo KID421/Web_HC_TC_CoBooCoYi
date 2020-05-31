@@ -132,4 +132,20 @@ nav #box #social a:nth-child(2) {
   letter-spacing: 4.8px;
   margin: 28px 0 31px;
 }
+
+#contant #product {
+  text-align: center;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#contant #product div {
+  width: 100px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  top: 73px;
+  right: 161px;
+}
 /*# sourceMappingURL=style.css.map */
